@@ -4,11 +4,14 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <div class="img-container">
+        <div className="img-container">
           <img src={require('./images/img1.jpg')} alt="azul"/>
-          <a href="https://wa.me/+556596023456" class="whatsapp-btn" aria-label="Chat on WhatsApp"/>
+          <a href="https://wa.me/+556596023456" className="whatsapp-btn" aria-label="Chat on WhatsApp"/>
         </div>
-        <img src={require('./images/img2.jpg')} className="img-2" alt="cristo"/>
+        <div className="img-container">
+          <img src={require('./images/img2.jpg')} alt="cristo"/>
+          <a href="https://wa.me/+556596023456" className="whatsapp-btn-2" aria-label="Chat on WhatsApp"/>
+        </div>
       </header>
     </div>
   );
